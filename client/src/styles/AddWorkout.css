@@ -1,0 +1,69 @@
+.addworkout-big-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(52, 52, 52, 0.738);
+    border-radius: 10px;
+    /* border: 1px solid #ccc; */
+}
+
+.addworkout-small-info-div {
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+    /* border: 1px solid #ccc; */
+}
+
+.addworkout-smaller-info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    /* border: 1px solid #ccc; */
+}
+
+
+.input-div {
+    color: #f2f2f2;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Google Sans', sans-serif;
+}
+
+input {
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #f2f2f2cb;
+}
+
+textarea {
+    border-radius: 10px;
+    padding: 5px; 
+    background-color: #f2f2f2cb;
+}
+
+.error-message {
+    color: #e59e9e;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Google Sans', sans-serif;
+    background-color: #f2f2f22b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    transition: transform .2s; /* Animation */
+    background: none;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.07);
+    background: rgba(166, 165, 165, 0.741);
+}

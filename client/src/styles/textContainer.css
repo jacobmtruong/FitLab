@@ -1,0 +1,36 @@
+.cover{
+    background-image: url("../img/banner-main.jpg");
+    width: 100px;
+}
+
+.title {
+    display: none;
+    position: relative;
+    top: -60px;
+    left: 30px;
+    color: #f2f2f2;
+    text-shadow: 0 0 20px #fff;
+
+}
+
+.wrap:hover div.title {
+    display: block;
+}
+
+.bigtitle {
+    display: none;
+    position: relative;
+    top: -110px;
+    left: 30px;
+    color: #f2f2f2;
+    width: fit-content;
+    font-family: "Google Sands", sans-serif;
+    font-size: 48px;
+    line-height: 2.25rem;
+    font-weight: 500;
+}
+
+
+div.bigtitle {
+    display: block;
+}

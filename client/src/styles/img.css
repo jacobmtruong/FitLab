@@ -1,0 +1,16 @@
+.image{
+    transition: transform .2s; /* Animation */
+    background: none;
+}
+
+
+
+.image:hover{
+    transform: scale(1.05);
+    background: white;
+}
+
+
+.container:hover img{
+    opacity: 0.3;
+}
